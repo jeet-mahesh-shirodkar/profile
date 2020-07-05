@@ -4,9 +4,8 @@ import Work from './Components/Work/Work';
 import Contact from './Components/Contact/Contact';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-// import './App.css';
 
-function App() {
+const App = () => {
   return (
     <React.Fragment>
       <Switch>
@@ -18,5 +17,4 @@ function App() {
     </React.Fragment>
   );
 }
-
 export default App;
