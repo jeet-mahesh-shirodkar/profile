@@ -1,0 +1,33 @@
+
+.navbar{
+    background-color: #ffffff !important;
+  }
+  
+  .navbar-brand{
+    font-size: 1.9rem !important;
+    color: #565387  !important;
+  }
+  
+  .navbar a {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+  }
+  
+  .bar_active{
+    font-weight: bold;
+    border-bottom: 2px solid #565387;
+  }
+  
+  .navbar a:hover{
+    color: #3498db !important;
+  }
+  
+  @media (max-width:991px){
+    .navbar-brand{
+      font-size: 1.5rem !important;
+    }
+    .bar_active{
+      font-weight: bold;
+      border-bottom: none;
+    }
+  }
