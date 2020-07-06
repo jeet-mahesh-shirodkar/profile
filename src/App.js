@@ -6,6 +6,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import Header from './Components/Header/Navbar';
+import About from './Components/About/About';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/" exact component={Home}/>
         <Route path="/work"  component={Work}/>
         <Route path="/contact"  component={Contact}/>
+        <Route path="/about"  component={About}/>
         <Redirect to="/"/>
       </Switch>
     </React.Fragment>
