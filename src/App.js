@@ -7,6 +7,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import Header from './Components/Header/Navbar';
 import About from './Components/About/About';
+import './App.css';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
@@ -19,6 +21,11 @@ const App = () => {
         <Route path="/about"  component={About}/>
         <Redirect to="/"/>
       </Switch>
+      <div className="footerText">
+        <p>© 2020 Portfolio</p>
+        <h6>Developed by 🤓</h6>
+      </div>
+      <Footer/>
     </React.Fragment>
   );
 }

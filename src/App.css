@@ -1,0 +1,11 @@
+.footerText{
+    width: 100%;
+    height: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .footerText p{
+    margin-bottom: 3px;
+  }
