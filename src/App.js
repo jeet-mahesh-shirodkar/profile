@@ -23,7 +23,7 @@ const App = () => {
       </Switch>
       <div className="footerText">
         <p>© 2020 Jeet</p>
-        <h6>😎</h6>
+        <h6>😏</h6>
       </div>
       <Footer/>
     </React.Fragment>
