@@ -1,5 +1,8 @@
 import React, { Fragment } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import git from '../../Images/git.svg';
+import linkedin from '../../Images/link.svg';
+import medium from '../../Images/linkden2.svg';
 
 const Footer = () => {
     return(
@@ -8,8 +11,9 @@ const Footer = () => {
             <div className="container-fluid nav_bg">
                 <div className="row">
                     <div className="col-10 mx-auto">
-                            <span><a href="https://www.github.com">Github</a></span>
-                            <span><a href="https://www.linkedin.com/">linkedin</a></span>
+                            <span><a target="_blank" href="https://www.github.com"><img src={git} alt="git-img"/>Github</a></span>
+                            <span><a target="_blank" href="https://www.github.com"><img src={linkedin} alt="git-img"/>Linkedin</a></span>
+                            <span><a target="_blank" href="https://www.github.com"><img src={medium} alt="git-img"/>Medium</a></span>
                         </div>
                 </div>
             </div>

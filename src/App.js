@@ -22,8 +22,8 @@ const App = () => {
         <Redirect to="/"/>
       </Switch>
       <div className="footerText">
-        <p>© 2020 Portfolio</p>
-        <h6>Developed by 🤓</h6>
+        <p>© 2020 Jeet</p>
+        <h6>😎</h6>
       </div>
       <Footer/>
     </React.Fragment>

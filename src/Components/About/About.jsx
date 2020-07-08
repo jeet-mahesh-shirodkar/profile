@@ -11,7 +11,7 @@ const About = () => {
                     <div className="col-10 mx-auto">
                         <div className="row">
                             <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                            <h3>Bio</h3>
+                            <h3>Bio.</h3>
                             <p>
                             I'm front-end developer with analytical and development skills over a year of Industrial experience. 
                             I have worked in an environment of agile methodologies, DevOps deliveries and client interaction.
