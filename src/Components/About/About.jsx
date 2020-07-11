@@ -1,6 +1,7 @@
 import React from "react";
 import about from '../../Images/about1.svg';
 import { NavLink } from "react-router-dom";
+import mainAni from "../Animations/AboutAni/mainAni";
 
 const About = () => {
     return(
@@ -23,13 +24,24 @@ const About = () => {
                             <p>I believe teaching and accepting new logics, Is key to happiness 😉.</p>
                             </div> 
                             <div className="col-lg-6 order-1 order-lg-2 header-img">
-                                <img src={about} className="img-fluid" alt="about-img"/>
+                                <div className="image about">
+                                <img src={about} className="img-fluid sticky-top" alt="about-img"/>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <div className="down-about">
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-10">
+                        <mainAni/>
+                    </div>
+                </div>
+            </div>
+        </div>
     </React.Fragment>
     );
 }
