@@ -4,7 +4,7 @@ import Work from './Components/Work/Work';
 import Contact from './Components/Contact/Contact';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 import Header from './Components/Header/Navbar';
 import About from './Components/About/About';
 import './App.css';
