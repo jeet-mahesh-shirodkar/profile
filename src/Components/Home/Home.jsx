@@ -3,18 +3,12 @@ import home from '../../Images/home3.svg';
 import { NavLink } from "react-router-dom";
 import {Transition} from 'react-spring/renderprops';
 import {useTransition, animated} from 'react-spring';
+import HomeAni from "../Animations/HomeAni";
 
 
 
 
 const Home = () => {
-
-    const [toggle, set] = useState(false);
-    const transitions = useTransition(toggle, null, {
-    from: { position: 'absolute', opacity: 0 },
-    enter: { opacity: 1 },
-    leave: { opacity: 0 },
-    })
 
     return (
     <React.Fragment>
@@ -27,10 +21,7 @@ const Home = () => {
                                 <h1>Ciao Team ! <strong className="brand-name">Sara </strong> here.</h1>
                                     <h2 className="my-3">I 💖 Turmeric Milk with Honey 😋 and I'm a JS Dev 🤓.
                                          Peace IN.   
-                                        {
-                                        transitions.map(({ item, key, props }) => 
-                                        item ? <animated.div style={props}>😄</animated.div>:<animated.div style={props}>🤪</animated.div>)}
-                                        </h2>
+                                    </h2>
                                         <div className="mt-3">
                                             Find More <NavLink to="/about" className="btn-get-started">About Me</NavLink>
                                         </div>
