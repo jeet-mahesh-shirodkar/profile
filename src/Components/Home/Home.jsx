@@ -3,7 +3,6 @@ import home from '../../Images/home3.svg';
 import { NavLink } from "react-router-dom";
 import {Transition} from 'react-spring/renderprops';
 import {useTransition, animated} from 'react-spring';
-import HomeAni from "../Animations/HomeAni";
 
 
 

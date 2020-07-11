@@ -1,7 +1,6 @@
 import React from "react";
 import about from '../../Images/about1.svg';
-import { NavLink } from "react-router-dom";
-import mainAni from "../Animations/AboutAni/mainAni";
+import AboutD3 from "../Animations/AboutAnimation/AboutAnimationD3.js";
 
 const About = () => {
     return(
@@ -36,8 +35,8 @@ const About = () => {
         <div className="down-about">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-10">
-                        <mainAni/>
+                    <div className="col-10 mx-auto">
+                        <AboutD3/>
                     </div>
                 </div>
             </div>
