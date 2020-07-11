@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="container-fluid nav_bg">
                 <div className="row">
                     <div className="col-10 mx-auto">
-                            <span><a target="_blank" href="https://www.github.com"><img src={git} alt="git-img"/>Github</a></span>
+                            <span><a target="_blank" href="https://github.com/jeet-mahesh-shirodkar"><img src={git} alt="git-img"/>Github</a></span>
                             <span><a target="_blank" href="https://www.github.com"><img src={linkedin} alt="git-img"/>Linkedin</a></span>
                             <span><a target="_blank" href="https://www.medium.com"><img src={medium} alt="git-img"/>Medium</a></span>
                         </div>
