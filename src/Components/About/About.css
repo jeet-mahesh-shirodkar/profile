@@ -1,0 +1,17 @@
+.treeWrapper_class{
+    background-color: ghostwhite;
+}
+
+.skill__nodes{
+    margin: 50px 20px;
+}
+
+.skill__heading{
+    padding: 10px 22px;
+    /* text-decoration: underline; */
+    /* text-decoration-color: darkgoldenrod; */
+}
+
+.skill__nodes p{
+    padding: 0px 22px;
+}
