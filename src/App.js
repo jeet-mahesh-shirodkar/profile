@@ -36,21 +36,21 @@ function Particles({ children }) {
 
 const App = () => {
   return (
-    <React.Fragment className="App">
+    <React.Fragment>
       <Particles>
         <h1 className="headerText">👋</h1>
       </Particles>
       <Header2/>
       <Switch>
-        <Route path="/" exact component={Home}/>
-        <Route path="/work"  component={Work}/>
-        <Route path="/contact"  component={Contact}/>
-        <Route path="/about"  component={About}/>
-        <Redirect to="/"/>
+        <Route path="/profile" exact component={Home}/>
+        <Route path="/profile/work"  component={Work}/>
+        <Route path="/profile/contact"  component={Contact}/>
+        <Route path="/profile/about"  component={About}/>
+        <Redirect to="/profile"/>
       </Switch>
       <Particles>
       <div className="footerText">
-        <p>© 2020 Jeet</p>
+        <p>© 2021 Jeet</p>
         <h6>😏</h6>
       </div>
       </Particles>

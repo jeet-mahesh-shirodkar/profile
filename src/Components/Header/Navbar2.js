@@ -10,13 +10,13 @@ const Header2 = () => {
                         <div className="navbar_new">
                                     <ul className="navbar__ul">
                                         <li className="nav-item">
-                                            <NavLink exact activeClassName="bar_active" className="nav-link" to="/">Home</NavLink>
+                                            <NavLink exact activeClassName="bar_active" className="nav-link" to="/profile">Home</NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink activeClassName="bar_active" className="nav-link" to="/work">Work</NavLink>
+                                            <NavLink activeClassName="bar_active" className="nav-link" to="/profile/work">Work</NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink activeClassName="bar_active" className="nav-link" to="/about">About</NavLink>
+                                            <NavLink activeClassName="bar_active" className="nav-link" to="/profile/about">About</NavLink>
                                         </li>
                                         <li className="nav-item">
                                             <a className="resume_link" href="https://drive.google.com/uc?export=download&id=1ROFGbGIov4Iy7tIe-6eX-8MLfa7KhVmc" download>

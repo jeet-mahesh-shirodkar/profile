@@ -93,7 +93,7 @@ const About = () => {
 
     return(
     <React.Fragment>
-        <section id="header" className="d-flex align-items-center">
+        <section id="" className="d-flex align-items-center">
             <div className="container-fluid nav_bg">
                 <div className="row">
                     <div className="col-10 mx-auto">

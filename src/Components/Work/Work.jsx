@@ -3,6 +3,7 @@ import { Button, Card, CardGroup } from "semantic-ui-react";
 import './Work.css';
 import particlesConfig from '../../particles-config';
 import Particles from 'react-particles-js';
+import { Fragment } from "react";
 
 const Work = () => {
 
@@ -33,7 +34,8 @@ const Work = () => {
                 <h1 className="industrial__header">Industrial.</h1>
                     <div className="Text">
                         <p>I am <b>FrontEnd Developer</b> at <b>Tata Consultancy Service, India</b> with designation of <b>System Engineer</b>.</p>
-                        <p>
+                        
+                            <Fragment>
                         <ul>
                             <li>Developed and maintained the web applications for <a href="https://www.statefarm.com" target="_blank"><b>Statefarm</b></a>
                             - U.S based Insurance Company.</li>
@@ -43,7 +45,8 @@ const Work = () => {
                             <li>Received <a href="https://drive.google.com/file/d/1IqIHYwG37gkNaM1fKofws6EvdGlzhzk-/view?usp=sharing" target="_blank"><b>LIREL award</b></a> - A leader with integrity,respecting every individual.</li>
                             <li>Appreciation for adopting new technology and delivering the <a href="https://drive.google.com/file/d/1KSEh_y54L0xj6DtLVjHwyisfT8HAc_4Q/view?usp=sharing" target="_blank"><b>Migration Project</b></a> on time.</li>
                         </ul>
-                        </p>
+                            </Fragment>
+                        
                     </div>
                     <div className="Awards">
 
@@ -54,7 +57,7 @@ const Work = () => {
                 <CardGroup>
                     {
                         updatedData.map((i,el)=> (            
-                            <Card onClick={(e)=> window.open(i.html_url)}
+                            <Card key={el} onClick={(e)=> window.open(i.html_url)}
                                   color="yellow">
                             <Card.Content>
                               <Card.Header>{i.name}</Card.Header>

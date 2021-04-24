@@ -12,8 +12,8 @@ const Footer = () => {
                 <div className="row">
                     <div className="">
                             <span><a target="_blank" href="https://github.com/jeet-mahesh-shirodkar/"><img src={git} alt="git-img"/>Github</a></span>
-                            <span><a target="_blank" href="https://www.linkedin.com/in/jeet-mahesh-shirodkar/"><img src={linkedin} alt="git-img"/>Linkedin</a></span>
-                            <span><a target="_blank" href="https://medium.com/@shirodkar.jeet.15ee5062/"><img src={medium} alt="git-img"/>Medium</a></span>
+                            <span><a target="_blank" href="https://www.linkedin.com/in/jeet-mahesh-shirodkar/"><img src={linkedin} alt="linkedin-img"/>Linkedin</a></span>
+                            <span><a target="_blank" href="https://medium.com/@shirodkar.jeet.15ee5062/"><img src={medium} alt="medium-img"/>Medium</a></span>
                         </div>
                 </div>
             </div>
