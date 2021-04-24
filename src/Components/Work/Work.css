@@ -1,0 +1,28 @@
+.project__parent{
+    width: 83.33%;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    flex: 0 0 auto;
+}
+
+.description{
+    margin: 1em 0px;
+}
+
+.articles, .gitHub, .industrial__projects{
+    padding: 10px;
+}
+
+.github__header{
+    text-decoration: underline;
+     text-decoration-color: #eec88e;
+}
+
+.industrial__header{
+    text-decoration: underline;
+    text-decoration-color:  #7c9edb;
+}
+.articles__header{
+    text-decoration: underline;
+     text-decoration-color: #a364c1;
+}
