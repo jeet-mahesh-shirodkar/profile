@@ -85,6 +85,7 @@ const About = () => {
     const treeContainer = useRef(null);
 
     useEffect(()=>{
+        window.scroll({ top: 0,behavior: 'smooth'});
         const dimensions = treeContainer.current.getBoundingClientRect();
         settranslate({
             x: 60/2,
