@@ -102,12 +102,12 @@ const About = () => {
                             <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                             <h3>Bio.</h3>
                             <p>
-                            I'm front-end developer with analytical and development skills over a year of Industrial experience. 
-                            I have worked in an environment of agile methodologies, DevOps deliveries and client interaction.
+                            I'm <b>Frontend Web Developer</b> with analytical and development skills over the years of Industrial experience. 
+                            I have adoted an environment of agile methodologies, DevOps deliveries and client interaction.
                             </p>
                             <p>
                             I was taught web development and designing by working in industrial projects and many times, myself 🤓.
-                            I also have Bachelor of Engineering in Electronic from Mumbai University 📚.
+                            I also holds Bachelor of Engineering in Electronic from Mumbai University 📚.
                             </p> 
                             <p>I believe learning and accepting new logics, Is key to happiness 😉.</p>
                             </div> 

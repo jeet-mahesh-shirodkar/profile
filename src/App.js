@@ -46,7 +46,7 @@ const App = () => {
         <Route path="/profile/work"  component={Work}/>
         <Route path="/profile/contact"  component={Contact}/>
         <Route path="/profile/about"  component={About}/>
-        <Redirect to="/profile"/>
+        <Route path="/" exact><Redirect to="/profile"/></Route>
       </Switch>
       <Particles>
       <div className="footerText">
