@@ -42,11 +42,11 @@ const App = () => {
       </Particles>
       <Header2/>
       <Switch>
-        <Route path="/profile" exact component={Home}/>
-        <Route path="/profile/work"  component={Work}/>
-        <Route path="/profile/contact"  component={Contact}/>
-        <Route path="/profile/about"  component={About}/>
-        <Route path="/" exact><Redirect to="/profile"/></Route>
+        <Route exact path="/">{<Redirect to="/profile"/>}</Route>
+        <Route exact path="/profile" component={Home}/>
+        <Route exact path="/profile/work"  component={Work}/>
+        <Route exact path="/profile/contact"  component={Contact}/>
+        <Route exact path="/profile/about"  component={About}/>
       </Switch>
       <Particles>
       <div className="footerText">
