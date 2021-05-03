@@ -19,7 +19,7 @@ const Header2 = () => {
                                             <NavLink activeClassName="bar_active" className="nav-link" to="/profile/about">About</NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="resume_link" href="https://drive.google.com/uc?export=download&id=1k2yB6gJGs4Ps9i971dS1QKhLtXXRS1y5" download>
+                                            <a className="resume_link" href="https://drive.google.com/uc?id=1k2yB6gJGs4Ps9i971dS1QKhLtXXRS1y5&amp;export=download" download="Jeet_Frontend">
                                             Resume
                                             </a>
                                         </li>
