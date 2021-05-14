@@ -26,3 +26,12 @@
     text-decoration: underline;
      text-decoration-color: #a364c1;
 }
+
+.project__parent a{
+    text-decoration: none !important;
+}
+
+.Text ul li a{
+    color: #4183c4;
+    text-decoration: none !important;
+}

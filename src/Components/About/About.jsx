@@ -94,7 +94,7 @@ const About = () => {
 
     return(
     <React.Fragment>
-        <section id="" className="d-flex align-items-center">
+        <section className="d-flex align-items-center">
             <div className="container-fluid nav_bg">
                 <div className="row">
                     <div className="col-10 mx-auto">
@@ -113,7 +113,7 @@ const About = () => {
                             </div> 
                             <div className="col-lg-6 order-1 order-lg-2 header-img">
                                 <div className="image about">
-                                <img src={about} className="img-fluid sticky-top" alt="about-img"/>
+                                <img src={about} className="img-fluid sticky-top" alt="about-img-jeet-mahesh-shirodkar"/>
                                 </div>
                             </div>
                         </div>

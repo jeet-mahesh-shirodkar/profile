@@ -11,9 +11,9 @@ const Footer = () => {
             <div className="container-fluid nav_bg">
                 <div className="row">
                     <div className="">
-                            <span><a target="_blank" href="https://github.com/jeet-mahesh-shirodkar/"><img src={git} alt="git-img"/>Github</a></span>
-                            <span><a target="_blank" href="https://www.linkedin.com/in/jeet-mahesh-shirodkar/"><img src={linkedin} alt="linkedin-img"/>Linkedin</a></span>
-                            <span><a target="_blank" href="https://medium.com/@shirodkar.jeet.15ee5062/"><img src={medium} alt="medium-img"/>Medium</a></span>
+                            <span><a target="_blank" href="https://github.com/jeet-mahesh-shirodkar/" rel="noopener noreferrer"><img src={git} alt="git-img"/>Github</a></span>
+                            <span><a target="_blank" href="https://www.linkedin.com/in/jeet-mahesh-shirodkar/" rel="noopener noreferrer"><img src={linkedin} alt="linkedin-img"/>Linkedin</a></span>
+                            <span><a target="_blank" href="https://medium.com/@shirodkar.jeet.15ee5062/" rel="noopener noreferrer"><img src={medium} alt="medium-img"/>Medium</a></span>
                         </div>
                 </div>
             </div>
