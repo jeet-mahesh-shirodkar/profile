@@ -58,7 +58,7 @@ const App = () => {
       </Switch>
       <Particles>
       <div className="footerText">
-        <p>© 2021 Jeet</p>
+        <p>© 2025 Jeet</p>
         <h6><span role="img" aria-label="SideEyes">😏</span></h6>
       </div>
       </Particles>
