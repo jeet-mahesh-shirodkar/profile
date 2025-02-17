@@ -3,13 +3,15 @@ import { Button, Card, CardGroup } from "semantic-ui-react";
 import './Work.css';
 import { Fragment } from "react";
 import { Helmet } from "react-helmet";
+// import Timeline from 'react-timeline-semantic-ui';
+
 
 const Work = () => {
 
     const [updatedData, setUpdatedData] = useState([]);
 
     useEffect( ()=>{
-        const fetchGitRepos = async()=>  {await fetch("https://api.github.com/users/jeet-mahesh-shirodkar/repos")
+        const fetchGitRepos = async () =>  { await fetch("https://api.github.com/users/jeet-mahesh-shirodkar/repos")
                                                 .then(response => response.json())
                                                 .then(data => {
                                                     let updatedData = [];
@@ -38,8 +40,25 @@ const Work = () => {
             <div className="work__header"></div>
             <div className="industrial__projects">
                 <h1 className="industrial__header">Industrial.</h1>
+                <div className="Text">
+                        <p><b><span role="img" aria-label="work-profile">💼 </span>Software Engineer </b> | <b>Cognizant Technology Solutions, India</b> | <b> Associate-Projects</b>.</p>
+                        <p><span role="img" aria-label="timeline-cal">🗓️ </span><b>Aug 2021 - Present</b></p>
+                            <Fragment>
+                        <ul>
+                            <li>Worked on web & mobile applications for <a href="https://www.macys.com" target="_blank" rel="noopener noreferrer"><b>Macy's </b></a>
+                             and <a href="https://www.bloomingdales.com" target="_blank" rel="noopener noreferrer"><b>bloomingdale's</b></a> - U.S based department store chain.</li>
+                            <li>Learned Retail Domain fundamentals as <b>Retail chain business, Inventory management, Stores operations, Stores Display management</b> required.</li>
+                            <li>Collabarated and worked closely with all required <b>Stores chain department</b> teams.</li>
+                            <li>Actively particiated with <b>business, product, scrum meetings</b> and other processes followed in Agile.</li>
+                            <li>Responsible for performance and testing aspects of project deleveries</li>
+                            <li>Work on GCP Technology, Implemented <b>Pub/Sub Client</b> for the application to continuously send (publish) and receive (subscribe) messages as they are published by dataflow</li>
+                            </ul>
+                            </Fragment>
+                        
+                    </div>
                     <div className="Text">
-                        <p>I am <b>FrontEnd Developer</b> at <b>Tata Consultancy Service, India</b> with designation of <b>System Engineer</b>.</p>
+                        <p><span role="img" aria-label="work-profile">💼 </span><b>Frontend Developer</b> | <b>Tata Consultancy Services, India</b> | <b> System Engineer</b>.</p>
+                        <p><span role="img" aria-label="timeline-cal">🗓️ </span><b>June 2018 - Aug 2021 </b></p>
                         
                             <Fragment>
                         <ul>
@@ -53,9 +72,6 @@ const Work = () => {
                         </ul>
                             </Fragment>
                         
-                    </div>
-                    <div className="Awards">
-
                     </div>
             </div>
             <div className="gitHub">

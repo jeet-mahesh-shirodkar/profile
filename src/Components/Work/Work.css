@@ -35,3 +35,12 @@
     color: #4183c4;
     text-decoration: none !important;
 }
+
+.Text{
+    border: 3px solid white;
+    border-color: white;
+    border-left-color: #7c9edb;
+    border-bottom-color: #7c9edb;
+    padding: 10px;
+    margin: 10px 5px;
+}
