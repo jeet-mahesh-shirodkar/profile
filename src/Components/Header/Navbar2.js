@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-import download from '../../Images/download.png';
-import arrow from '../../Images/pngtree-download-arrow.jpg';
+// import download from '../../Images/download.png';
+// import arrow from '../../Images/pngtree-download-arrow.jpg';
 
 const Header2 = () => {
     return (
@@ -19,7 +19,10 @@ const Header2 = () => {
                                             <NavLink activeClassName="bar_active" className="nav-link" to="/profile/about">About</NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="resume_link" href="https://drive.google.com/uc?id=1k2yB6gJGs4Ps9i971dS1QKhLtXXRS1y5&amp;export=download" download="Jeet_Frontend">
+                                            {/*  
+                                            https://drive.google.com/uc?id=1B6J8WlgkDpDD-IlL9_GLbJ6tq9Jb3o56&amp;export=download
+                                            https://drive.google.com/uc?export=download&id=1gq5PreT4L0mMrv31Df6nfsY_FWqqjYt1*/}
+                                            <a className="resume_link" href="https://drive.google.com/uc?id=1gq5PreT4L0mMrv31Df6nfsY_FWqqjYt1&amp;export=download" download="Jeet_Frontend">
                                             Resume
                                             </a>
                                         </li>
