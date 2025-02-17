@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+//import { Link, NavLink } from 'react-router-dom';
 import git from '../../Images/git.svg';
 import linkedin from '../../Images/link.svg';
 import medium from '../../Images/linkden2.svg';
